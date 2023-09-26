@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    height: 60px;
+    width:220px;
+}
+a{
+    list-style: none;
+    text-decoration:none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between ;
+    background-color:rgb(1, 10, 10);
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+.nav-links li a:hover{
+    color: rgb(43, 154, 223)  ;
+}
+.nav-links li a{
+ color:white;
+}
+.btn-login{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(40, 177, 241);
+    border-style: none;
+    color: rgba(0, 8, 5, 0.936);
+    margin-right: 20px;
+
+}
+button.btn-login:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+.big{
+    font-size: 50px;
+    color: aliceblue;
+    padding-right: 10px;
+}
+.small{
+    font-size: 20px;
+    color: rgba(109, 118, 126, 0.94);
+    padding-right: 10px;
+}
+.main-image{
+    height: 380px;
+    width: 400px;
+    padding-left:10px ;
+}
+.main{
+    display: flex;
+    background-color: black;
+    justify-content:space-between;
+    align-items: center;
+}
+.btn-getstarted{
+    color: black;
+    background-color: rgb(98, 188, 229);
+    height: 40px; 
+    width: 130px;
+    border-style: none;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    align-content: center;
+}
+
+.btn-getstarted:hover{
+    color: aliceblue;
+    cursor: pointer;
+    padding-left: 4%;
+}
+
+.main-div{
+    background-color: rgba(182, 185, 187, 0.915);
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.mid-div{
+justify-content: center;
+font: size 30%;
+color: rgb(11, 11, 55);
+padding-left: 100px;
+
+}
+.imagee{
+    padding-left: 5%;
+    
+}
+.logo-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-div{
+    align-items: center;
+}
+.about{
+    padding-top:100px;
+}
+
+.footer{
+    background-color: #0b0b50ec;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
